@@ -48,10 +48,36 @@ int main()
 			break;
 		};
 		break;
+			
 	case 2:
 		cout << "Jestes w zakladce Administrator" << endl;
-		cout << "1 - przegladaj dane klientow, 2- przegl¹daj dane grup" << endl;
+		cout << "1 - przegladaj dane klientow, 2- przeglądaj dane grup" << endl;
 		cin >> liczba2;
+		switch (liczba2) {
+		case 1:
+			
+			int a;
+			cout << "Dane klientów. Czy zapisać raport? 1- Tak, 2- Nie" << endl;
+				// Administrator->przeglądajDane();
+			cin >> a;
+			if (a == 1) {
+				// Administrator->stwórz_plik();
+				cout << "Zapisano" << endl;
+			}
+			else cout << "Nie zapisano";
+			break;
+		case 2:
+			int a;
+			cout << "Dane grup. Czy zapisać raport? 1- Tak, 2- Nie" << endl;
+				// Administrator->przeglądajGrupy();
+			cin >> a;
+			if (a ==1) {
+				// Administrator->stwórz_plik();
+				cout << "Zapisano" << endl;
+			}
+			else cout << "Nie zapisano";
+			break;
+		}
 		break;
 	case 3:
 		cout << "Jestes w zakladce Trener" << endl;
