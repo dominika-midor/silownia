@@ -78,17 +78,38 @@ int main()
 			else cout << "Nie zapisano";
 			break;
 		}
-		break;
+	break;
 	case 3:
 		cout << "Jestes w zakladce Trener" << endl;
 		cout << "1 - utworz grupe" << endl;
 		cin >> liczba2;
-		break;
+		if (liczba2 == 1) {
+			// Trener->stworzGrupe();
+			cout << "Utworzono grupę" << endl;
+			}
+	break;
 	default:
 		cout << "Jestes niezalogowany" << endl;
-		cout << "1 - zarejestruj sie, 2- przegl¹daj oferte" << endl;
+		cout << "1 - zarejestruj sie, 2- przeglądaj oferte" << endl;
 		cin >> liczba2;
-		break;
+		
+		switch (liczba2) {
+		case 1:
+			/*
+			string imie, haslo;
+			Stały_klient *Gość = new  Stały_klient;
+			cout << "Podaj email" << endl;
+			cin >> imie;
+			cout << "Podaj haslo" << endl;
+			cin >> haslo;
+			break;
+			*/
+			break;
+		case 2:
+			cout << "Wyświetla dane grup" << endl;
+			//cout<< Grupy->nazwa<<"Ilosc miejsc: << Grupy->max;
+			break;
+		}
 	}
 	return 0;
 
