@@ -14,14 +14,12 @@ class Administrator;
 
 class Administrator
 {
-	public: std::vector<Karnety*> _unnamed_Karnety_;
-	public: std::vector<Grupy*> _unnamed_Grupy_;
 
-	public: void przegl¹dajDane(Karnety aKarnet);
+	public: void przeglÂ¹dajDane();
 
-	public: void przegl¹dajGrupy(Grupy aGrupa);
+	public: void przeglÂ¹dajGrupy();
 
-	public: void stwórz_plik();
+	public: void stwÃ³rz_plik();
 };
 
 #endif
