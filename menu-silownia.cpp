@@ -11,6 +11,7 @@ int main()
 
 	int liczba;
 	int liczba2;
+	string mail, haslo;
 	cout << "Wybierz: 1 - staly klient, 2 - administrator, 3 - trener" << endl;
 	cin >> liczba;
 	switch (liczba){
