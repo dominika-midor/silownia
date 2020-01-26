@@ -67,11 +67,11 @@ int main()
 			else cout << "Nie zapisano";
 			break;
 		case 2:
-			int a;
+			int b;
 			cout << "Dane grup. Czy zapisać raport? 1- Tak, 2- Nie" << endl;
 				// Administrator->przeglądajGrupy();
-			cin >> a;
-			if (a ==1) {
+			cin >> b;
+			if (b ==1) {
 				// Administrator->stwórz_plik();
 				cout << "Zapisano" << endl;
 			}
