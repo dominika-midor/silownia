@@ -12,13 +12,13 @@ class Grupy;
 class Trener;
 
 class Trener
-{
-	private: string _imiê;
-	private: string _nazwisko;
-	private: int _ilosc_przepracowanych_godzin;
-	public: std::vector<Grupy*> _unnamed_Grupy_;
-
-	public: void utwórz_grupê();
+{private: 
+	string imie;
+	string nazwisko;
+	int _ilosc_przepracowanych_godzin;
+	
+public: 
+ 	void utwÃ³rz_grupe();
 };
 
 #endif
