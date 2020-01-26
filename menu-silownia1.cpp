@@ -1,7 +1,4 @@
-// ConsoleApplication25.cpp : Defines the entry point for the console application.
-//
 
-//#include "stdafx.h"
 #include <iostream>
 #include <string>
 
@@ -91,7 +88,7 @@ int main()
 		break;
 	case 2:
 		cout << "Jestes w zakladce Administrator" << endl;
-		cout << "1 - przegladaj dane klientow, 2- przegl¹daj dane grup" << endl;
+		cout << "1 - przegladaj dane klientow, 2- przeglÂ¹daj dane grup" << endl;
 		cin >> liczba2;
 		break;
 	case 3:
@@ -101,7 +98,7 @@ int main()
 		break;
 	default:
 		cout << "Jestes niezalogowany" << endl;
-		cout << "1 - zarejestruj sie, 2- przegl¹daj oferte" << endl;
+		cout << "1 - zarejestruj sie, 2- przeglÂ¹daj oferte" << endl;
 		cin >> liczba2;
 		break;
 	}
